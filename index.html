@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="js/main.js" defer></script>
+        <title>F1 Drive Standings</title>
+    </head>
+
+    <body>
+        <h1 class="text-center mt-5">F1 Driver Standings</h1>
+        <div class="container d-flex-inline justify-content-center align-items-center">
+            <div class="row text-center mt-5">
+                <form action="" id="f1Table">
+                    <label for="series">Enter Series: </label>
+                    <input type="text" name="series" id="series" class="me-2">
+        
+                    <label for="season">Enter Season: </label>
+                    <input type="text" name="season" id="season" class="me-2">
+        
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+            <div class="row mt-5">
+                <table id=standings>
+                    <tr>
+                        <th>Position</th>
+                        <th>Driver</th>
+                        <th>Constructor</th>
+                        <th>Points</th>
+                        <th>Wins</th>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
